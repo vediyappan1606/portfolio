@@ -1,0 +1,466 @@
+*{
+    scroll-behavior: smooth;
+}
+
+#home-page-1{
+    background-color: #0B2C3D;
+}
+
+
+
+@media screen and (max-width:1100px){
+    /* contact */
+    #container-input{
+        text-align: center;
+    }
+    .contact-input input{
+        width: 260px !important;
+        height: 35px !important;
+    }
+    .contact-message textarea{
+        width: 577px !important;
+        height: 200px;
+    }
+}
+@media screen and (max-width:775px){
+    /* contact */
+    #container-input{
+        text-align: center;
+    }
+    .contact-input input{
+        width: 160px !important;
+        height: 35px !important;
+    }
+    .contact-message textarea{
+        width: 377px !important;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:640px){
+    /* nav-img */
+    .nav-logo{
+        height: 40px !important;
+        width: 75px !important;
+        margin-left: 20px !important;
+    }
+
+
+    /* home img */
+    .home-img{
+        height: 285px !important;
+        width: 255px !important;
+    }
+    .home-h1{
+        margin-top: 0px !important;
+        font-size: 40px !important;
+    }
+    
+
+    /* about img */
+    .about-content img{
+        margin-top: 50px;
+        height: 150px !important;
+        width: 150px !important;
+    }    
+}
+
+@media screen and (max-width:410px){
+    
+    #container-input{
+        text-align: center;
+    }
+    .contact-input input{
+        width: 140px !important;
+        height: 35px !important;
+    }
+    .contact-message textarea{
+        width: 207px !important;
+        height: 120px !important;
+    }
+}
+
+@media screen and (max-width:300px){
+    /* contact */
+    #container-input{
+        text-align: center;
+    }
+    .contact-message textarea{
+        width: 167px !important;
+        height: 80px !important;
+    }
+}
+
+@media screen and (max-width:285px){
+    
+
+    /* home img */
+    .home-img{
+        height: 255px !important;
+        width: 235px !important;
+    }
+}
+
+
+
+
+
+/*------------------------------------------------ nav-bar -------------------------------------------*/
+#nav{
+    background-color: #c3e963 ;
+}
+.nav-logo{
+    height: 80px;
+    width: 150px;
+    margin-left: 50px;
+}
+.nav-logo:hover{
+    box-shadow: 2px 2px 12px 2px #0B2C3D;
+    border-radius: 5px;
+}
+#nav-list li {
+    font-weight: bold;
+    padding: 0 20px;
+}
+#nav-list li a{
+    color: #0B2C3D;
+}
+#nav-list li a:hover{
+    color: rgb(255, 255, 255);
+}
+/*------------------------------------------------ end of nav-bar ------------------------------------*/
+
+
+/*--------------------------------------------------- home page --------------------------------------*/
+#home{
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+.home-img{
+    height: 535px;
+    width: 500px;
+    filter:drop-shadow(10px 7px 20px #c3e963);
+}
+.home-h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.home-h2-1{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(87, 194, 243);
+}
+.home-h2-2{
+    color: blue;
+}
+#home p{
+    color: white;
+}
+.home-btn{
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.home-btn:hover{
+    color: blue;
+    background-color: rgb(87, 194,243);
+    font-weight: bold;
+}
+.home-icon a{
+    color: rgb(87, 194, 243);
+    margin-right: 10px;
+}
+.home-icon a i{
+    padding: 5px;
+    border: 1px solid rgb(87, 194, 243);
+    border-radius: 50%;
+    font-size: 30px;
+}
+.home-icon a i:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: black;
+}
+/*------------------------------------------- end of home page  ----------------------------------------*/
+
+/*-------------------------------------------- about me -------------------------------------------------*/
+.about-content{
+    background-color: #0B2C3D;
+    text-align: center;
+    padding: 20px;
+}
+.about-content h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.about-h1{
+    color: rgb(87, 194, 243);
+}
+.about-content img{
+    margin-top: 50px;
+    height: 350px;
+    width: 350px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.about-content img:hover{
+   filter: drop-shadow( 10px 7px 20px #c3e963);
+}
+.about-h3{
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.about-para{
+    color: white;
+    padding: 50px;
+}
+.about-btn a{
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.about-btn a:hover{
+    color: blue;
+    background-color: rgb(87, 194, 243);
+    font-weight: bold;
+}
+/*--------------------------------------------------------- end of about me --------------------------------------*/
+
+
+/*------------------------------------------------------------ education ----------------------------------------*/
+.educate{
+    background-color: #0B2C3D;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+}
+.educate-h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.educate-h1-1{
+    color: rgb(87, 194, 243);
+}
+.educate-col-head{
+    color: white;
+}
+.qualification{
+    color: white;
+    border: 1px solid rgb(87, 194, 243);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.calender{
+    margin-right: 5px;
+}
+.year{
+    color: rgb(87, 194, 243);
+}
+
+/*------------------------------------------ end of education ----------------------------------------*/
+
+
+/*-------------------------------------------------- skills -------------------------------------------*/
+.skills{
+    background-color: #0B2C3D;
+    padding-bottom: 30px;
+}
+#pro-1{
+    width: 90%;
+}
+#pro-2{
+    width: 85%;
+}
+#pro-3{
+    width: 55%;
+}
+#pro-4{
+    width: 93%;
+}
+#pro-5{
+    width: 50%;
+}
+#pro-6{
+    width: 89%;
+}
+#pro-7{
+    width: 80%;
+}
+#pro-8{
+    width: 91%;
+}
+#pro-9{
+    width: 82%;
+}
+.skills-h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.skills-h1-1{
+    color: rgb(87, 194, 243);
+}
+#skills-row-1 h3{
+    color: rgb(255, 255, 255);
+}
+.skills-row-2{
+    border: 2px solid rgb(87, 194, 243);
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.skills-row-2-head{
+    color: white;
+    /* padding: 15px; */
+}
+.progress{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+/*------------------------------------------------------- end of skills -----------------------------------------*/
+
+
+/*-------------------------------------------------------- portfolio -------------------------------------------*/
+#portfolio-1{
+    max-width: 100%;
+    padding: 50px;
+    height: 550px;
+    background-color: #0B2C3D;
+}
+.card {
+    position: relative;
+    width: 320px;
+    height: 250px;
+    background: mediumturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+.card {
+    position: relative;
+    width: 320px;
+    height: 250px;
+    background: linear-gradient( #c3e963 , #0B2C3D );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card::before,
+.card::after {
+   position: absolute;
+   content: "";
+   width: 20%;
+   height: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 25px;
+   font-weight: bold;
+   background: linear-gradient( blue, red  ) ; 
+   transition: all 0.5s;
+}
+  
+.card::before {
+   top: 0;
+   right: 0;
+   border-radius: 0 15px 0 100%;
+}
+  
+.card::after {
+   bottom: 0;
+   left: 0;
+   border-radius: 0 100%  0 15px;
+}
+  
+.card:hover::before,
+.card:hover:after {
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   transition: all 0.5s;
+}
+  
+.card:hover:after {
+   content: "Annabelle";
+}
+
+#portfolio-btn{
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+/*--------------------------------------------------- end of portfolio -------------------------------------------*/
+
+
+
+/*------------------------------------------------------------ contact ----------------------------------------*/
+.contact-1{
+    background-color: #0B2C3D;
+    padding-bottom: 30px;
+}
+.contact-h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-h1-1{
+    color: rgb(87, 194, 243);
+}
+#container-input{
+    /* padding: 80px; */
+    text-align: center;
+}
+.contact-input input{
+    margin: 10px;
+    width: 360px;
+    height: 50px;
+    border: 2px solid rgb(87, 194, 243);
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.contact-input input::placeholder {
+    text-align: center;
+}
+.contact-col-1{
+    padding: 0px;
+}
+.contact-message textarea{
+    width: 877px;
+    height: 200px;
+    border: 2px solid rgb(87, 194, 243);
+    border-radius: 25px;
+    padding: 10px;
+}
+.contact-message textarea::placeholder {
+    text-align: center;
+}
+#contact-button{
+    padding-top: 20px;
+    text-align: center;
+}
+/*--------------------------------------------------- end of contact ----------------------------------------*/
+
+
