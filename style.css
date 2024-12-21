@@ -36,7 +36,15 @@
     }    
 }
 
-@media screen and (max-width:285px){
+@media screen and (max-width:440px){
+    /* about */
+    .about-para{
+        color: white;
+        padding: 10px !important;
+    }
+}
+
+@media screen and (max-width:297px){
     
 
     /* home img */
@@ -77,17 +85,13 @@
 
 
 /*--------------------------------------------------- home page --------------------------------------*/
-#home{
-    margin-top: 50px;
-    /* margin-bottom: 50px; */
-}
+
 .home-img{
     height: 535px;
     width: 500px;
     filter:drop-shadow(10px 7px 20px #c3e963);
 }
 .home-h1{
-    margin-top: 50px;
     font-weight: bold;
     font-size: 50px;
     color: white;
@@ -280,24 +284,9 @@
 /*-------------------------------------------------------- portfolio -------------------------------------------*/
 #portfolio-1{
     max-width: 100%;
-    padding: 50px;
-    height: 550px;
+    height: 400px;
     background-color: #0B2C3D;
 }
-.card {
-    position: relative;
-    width: 320px;
-    height: 250px;
-    background: mediumturquoise;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: bold;
-    border-radius: 15px;
-    cursor: pointer;
-    overflow: hidden;
-  }
 .card {
     position: relative;
     width: 320px;
@@ -347,11 +336,14 @@
 .card:hover:after {
    content: "Annabelle";
 }
-
+.portfolio-btn-p{
+    background-color: #0B2C3D;
+    text-align: center;
+}
 #portfolio-btn{
     width: 320px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 200px;
     font-weight: bold;
 }
 /*--------------------------------------------------- end of portfolio -------------------------------------------*/
@@ -442,4 +434,10 @@
 }
 .footer-para{
     color: white;
+    animation: blink 2s infinite;
+}
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
 }
