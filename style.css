@@ -222,6 +222,7 @@
 .skills{
     background-color: #0B2C3D;
     padding-bottom: 30px;
+    padding: 10px;
 }
 #pro-1{
     width: 90%;
@@ -272,7 +273,6 @@
 }
 .skills-row-2-head{
     color: white;
-    /* padding: 15px; */
 }
 .progress{
     margin-top: 10px;
