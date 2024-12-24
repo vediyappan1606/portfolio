@@ -9,7 +9,7 @@
 @media screen and (max-width:991px){
     /* home navbar */
     #nav{
-        background-color: #c3e963 ;
+        background-color: #c3e963 !important;
     }
 }
 
