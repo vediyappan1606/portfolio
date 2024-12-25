@@ -101,13 +101,10 @@
     animation: home-ani-img 2s infinite;
 }
 @keyframes home-ani-img{
-    /* 0%{
+    0%{
         transform: translateY(0px);
-    } */
-    35%{
-        transform: translateY(10px);
     }
-    70%{
+    50%{
         transform: translateY(-10px);
     }
     100%{
