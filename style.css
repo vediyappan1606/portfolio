@@ -21,12 +21,7 @@
         margin-left: 20px !important;
     }
 
-
-    /* home img */
-    .home-img{
-        height: 285px !important;
-        width: 255px !important;
-    }
+    /* home */
     .home-h1{
         margin-top: 0px !important;
         font-size: 40px !important;
@@ -39,6 +34,13 @@
         height: 150px !important;
         width: 150px !important;
     }    
+}
+@media screen and (max-width:575px){
+    /* home img */
+    .home-img{
+        height: 285px !important;
+        width: 255px !important;
+    }
 }
 
 @media screen and (max-width:440px){
@@ -181,6 +183,20 @@
     border-radius: 50%;
     color: black;
 }
+.resume h2{
+    color: white;
+    padding-top: 30px;
+}
+.resume button{
+    color: #0B2C3D;
+    background-color: #c3e963;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.resume button:hover{
+    background-color: white;
+}
 /*------------------------------------------- end of home page  ----------------------------------------*/
 
 /*-------------------------------------------- about me -------------------------------------------------*/
@@ -217,12 +233,15 @@
     color: white;
     padding: 50px;
 }
-.about-btn a{
+.about-btn button{
     color: white;
+    background-color: #0B2C3D;
     border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
     font-weight: bold;
 }
-.about-btn a:hover{
+.about-btn button:hover{
     color: blue;
     background-color: rgb(87, 194, 243);
     font-weight: bold;
